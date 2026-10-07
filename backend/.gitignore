@@ -1,0 +1,26 @@
+# Virtual Environment
+backend/venv/
+venv/
+ENV/
+
+# Secrets & Environment Variables
+.env
+backend/.env
+frontend/.env.local
+frontend/.env
+
+# Python Cache & Crawl4AI
+__pycache__/
+*.py[cod]
+*$py.class
+.crawl4ai/
+*.db
+*.backup*
+
+# Node / Next.js Build
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+.DS_Store
+*.log
